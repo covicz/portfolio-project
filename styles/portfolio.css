@@ -4,14 +4,39 @@ font-family: 'Poppins',
 sans-serif;*/
 
 
-h1{
+h1,h2{
     
 font-family: 'Playfair Display',
         serif;
-        font-weight: bold;
+font-weight: bold;
 }
+h1{ font-size: 80px;}
 p{
 font-family: 'Poppins',
         sans-serif;
-        font-weight: normal;
+font-weight: normal;
+}
+
+.hero{
+background: burlywood;
+text-align: center;
+padding: 150px 0;
+}
+.hero p{
+font-size: 36px;
+font-weight: bold;
+margin: 0;
+}
+.hero h2{
+font-family: 'Poppins',
+                sans-serif;
+font-weight: normal;
+font-size: 24px;}
+
+.btn-primary{
+       background: yellowgreen ; 
+       border-radius: 4px;
+       font-size: 18px;
+       line-height: 27px;
+       padding:12px 20px;
 }
