@@ -12,13 +12,9 @@ h1,h2{
 font-family: var(--heading-font-family);
 font-weight: bold;
 }
+
 h1{ font-size: 80px;}
-p,
-.about-me p{
-font-family: var(--default-font-family);
-font-weight: normal;
-font-size: 20px;
-}
+
 h2{
  font-size: 64px;
 }
@@ -28,17 +24,22 @@ background:var(--primary-color);
 text-align: center;
 padding: 150px 0;
 }
-.hero p
-{
+
+.hero p{
 font-size: 36px;
 font-weight: bold;
 margin: 0;
 }
+
 .hero h2{
 font-family: var(--default-font-family);
 font-weight: normal;
 font-size: 24px;}
 
+.about-me{
+  text-align: center;
+  padding: 150px 0;
+}
 .about-me h1,h2{
   font-family: var(--heading-font-family);
   font-size: 54px;
@@ -46,9 +47,13 @@ font-size: 24px;}
 .about-me h2{
   font-size: 35px;
 }
-.about-me-content{
-  padding: 150px 0;
+
+.about-me p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 20px;
 }
+
 
 .btn-info,
 .btn-light{
@@ -63,16 +68,19 @@ padding:12px 20px;
 
 
 @media (max-width: 576px) {
-
 h1,
 h2,
-p
+p,
+.about-me h1,
+  h2
  {
 font-size: 30px;
 text-align: center;
 }
-.hero
+.hero,
+.about-me
 {
   padding: 80px 0;
 }
+
 }
