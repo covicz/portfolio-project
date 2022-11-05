@@ -38,7 +38,7 @@ font-size: 24px;}
 
 .content-container{
   text-align: center;
-  padding: 150px 0;
+  padding: 120px 0;
 }
 .content-container h1,h2{
   font-family: var(--heading-font-family);
@@ -74,8 +74,33 @@ padding:12px 20px;
 .contact{
 background:var(--secondary-color);
 }
+.contact a{
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
 
+.social-links a{
+  margin: 0 15px;
+  font-size: 30px;
+  color: var(--tertiary-color);
+}
 
+footer{
+  margin: 25px 0;
+}
+footer p{
+  font-size: 18px; 
+}
+
+footer a{
+font-size: 18px;
+text-decoration: none;
+color: var(--tertiary-color);
+}
+
+footer a:hover{
+  color: var(--primary-color);
+}
 @media (max-width: 576px) {
 h1,
 h2,
